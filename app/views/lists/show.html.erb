@@ -1,0 +1,12 @@
+<div class="container">
+  <h1><%= @list.name %></h1>
+  <%# add in the title of the movie as a link in a list %>
+  <%# add in the rating of the movie %>
+  <%# must bring in the instance variable of the movie into the list#show action %>
+  <ul>
+    <li>Movie 1</li>
+    <li>Movie 2</li>
+  </ul>
+
+  <%= link_to "Return to lists", lists_path, class: "btn btn-primary" %>
+</div>
